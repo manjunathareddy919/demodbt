@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/demo_dbt.iml" filepath="$PROJECT_DIR$/.idea/demo_dbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/demodbt.iml" filepath="$PROJECT_DIR$/.idea/demodbt.iml" />
     </modules>
   </component>
 </project>
