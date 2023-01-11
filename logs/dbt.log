@@ -1,0 +1,28 @@
+
+
+============================== 2023-01-11 09:02:11.150641 | e762c367-4f57-4dba-8433-e6df9d845df6 ==============================
+[0m09:02:11.150652 [info ] [MainThread]: Running with dbt=1.3.2
+[0m09:02:11.150919 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/lumiq/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'demo_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m09:02:11.151009 [debug] [MainThread]: Tracking: tracking
+[0m09:02:11.158116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379dd80a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379dd8190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379dd80d0>]}
+[0m09:02:11.158399 [info ] [MainThread]: Creating dbt configuration folder at /home/lumiq/.dbt
+[0m09:02:11.159092 [debug] [MainThread]: Starter project path: /home/lumiq/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m09:02:17.303739 [info ] [MainThread]: Profile demo_dbt written to /home/lumiq/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m09:02:17.303975 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:02:17.304163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379dd8190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379df32b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3379df3250>]}
+[0m09:02:17.304315 [debug] [MainThread]: Flushing usage events

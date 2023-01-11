@@ -1,0 +1,19 @@
+my-snowflake-db:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: gd26336.central-india.azure
+
+      # User/password auth
+      user: manjunath
+      password: Manjunath@1503
+
+      role: ACCOUNTADMIN
+      database: DEMO_DB
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 10
+      client_session_keep_alive: False
+
+
